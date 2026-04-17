@@ -41,7 +41,9 @@ export function Accommodation() {
               to="/ubytovani"
               className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 block group"
             >
-              <ImageCarousel images={item.images} title={item.title} />
+              <div className="h-[280px]">
+                <ImageCarousel images={item.images.slice(0, 3)} title={item.title} />
+              </div>
               <div className="p-8">
                 <h3 className="font-display text-[clamp(1.25rem,3vw,1.75rem)] mb-3">
                   {item.title}
