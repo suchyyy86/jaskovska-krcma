@@ -78,7 +78,18 @@ export function Header() {
         )}
       >
         <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
-          <Link to="/" className="block" aria-label="Jaškovská Krčma — domů">
+          <Link 
+            to="/" 
+            className="block" 
+            aria-label="Jaškovská Krčma — domů"
+            onClick={() => {
+              if (isHome) {
+                window.scrollTo({ top: 0, behavior: "smooth" })
+              } else {
+                window.scrollTo(0, 0)
+              }
+            }}
+          >
             <img
               src="/images/logo.png"
               alt="Jaškovská Krčma logo"
