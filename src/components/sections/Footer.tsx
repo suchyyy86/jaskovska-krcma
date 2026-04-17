@@ -140,7 +140,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-16 pt-6 text-center text-xs text-white/60">
-          © 2025 Jaškovská Krčma. Všechna práva vyhrazena.
+          © 2026 Jaškovská Krčma. Všechna práva vyhrazena.
         </div>
       </div>
     </footer>

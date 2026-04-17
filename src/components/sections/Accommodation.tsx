@@ -38,16 +38,16 @@ export function Accommodation() {
             <Link
               key={i}
               to="/ubytovani"
-              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 block group"
+              className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col group"
             >
-              <div className="h-[280px]">
+              <div className="h-[280px] shrink-0">
                 <ImageCarousel images={item.images.slice(0, 3)} title={item.title} />
               </div>
-              <div className="p-8">
+              <div className="p-8 flex flex-col flex-1">
                 <h3 className="font-display text-[clamp(1.25rem,3vw,1.75rem)] mb-3">
                   {item.title}
                 </h3>
-                <p className="text-sm text-text-light leading-relaxed mb-5">
+                <p className="text-sm text-text-light leading-relaxed mb-5 flex-1">
                   {item.desc}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
