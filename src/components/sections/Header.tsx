@@ -71,7 +71,7 @@ export function Header() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
+          "fixed top-0 left-0 right-0 z-[100] transition-all duration-300",
           headerSolid
             ? "bg-cream/97 backdrop-blur-md py-2 shadow-sm"
             : "py-5"
@@ -80,11 +80,13 @@ export function Header() {
         <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
           <Link to="/" className="block" aria-label="Jaškovská Krčma — domů">
             <img
-              src="https://jaskovskakrcma.cz/wp-content/uploads/2015/05/logonew2.jpg"
+              src="/images/logo.png"
               alt="Jaškovská Krčma logo"
               className={cn(
                 "transition-all duration-300",
-                headerSolid ? "h-[45px]" : "h-[60px]"
+                headerSolid 
+                  ? "h-[45px]" 
+                  : "h-[60px] brightness-0 invert object-contain"
               )}
             />
           </Link>

@@ -32,7 +32,7 @@ export function MenuSection() {
         <div
           ref={tabsRef}
           className={cn(
-            "flex flex-wrap justify-center gap-2 mb-12 border-b border-border pb-4 transition-all duration-700",
+            "flex flex-wrap justify-center gap-2 mb-12 transition-all duration-700",
             tabsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           )}
           role="tablist"
@@ -44,8 +44,8 @@ export function MenuSection() {
               aria-selected={activeTab === cat.id}
               onClick={() => setActiveTab(cat.id)}
               className={cn(
-                "text-sm font-medium px-4 py-2.5 relative whitespace-nowrap transition-colors cursor-pointer",
-                "after:content-[''] after:absolute after:bottom-[-17px] after:left-0 after:h-[2px] after:bg-gold after:transition-all after:duration-300",
+                "text-sm font-medium px-4 py-2 relative whitespace-nowrap transition-colors cursor-pointer",
+                "after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-gold after:transition-all after:duration-300",
                 activeTab === cat.id
                   ? "text-gold after:w-full"
                   : "text-text-light hover:text-gold after:w-0"

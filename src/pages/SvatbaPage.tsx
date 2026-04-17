@@ -15,7 +15,7 @@ export function SvatbaPage() {
       <SubpageHero
         title="Svatba"
         subtitle="Váš den, Vaše oslava"
-        image="https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/973/Monika_a_Tom_059-3ef25ff955.jpg"
+        image="/images/Monika_a_Tom_059-3ef25ff955.jpg"
         breadcrumb="Svatba"
       />
 

@@ -13,7 +13,7 @@ export function PronajemPage() {
       <SubpageHero
         title="Firemní akce a pronájem"
         subtitle="Školení, konference, večírky"
-        image="https://jaskovskakrcma.cz/wp-content/uploads/2020/01/70.jpg"
+        image="/images/70.jpg"
         breadcrumb="Pronájem"
       />
 

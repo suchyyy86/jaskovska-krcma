@@ -14,7 +14,7 @@ export function UbytovaniPage() {
       <SubpageHero
         title="Ubytování"
         subtitle="Hotel, Chata & Apartmány"
-        image="https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1034/DSC_0730-43e219195b.jpg"
+        image="/images/DSC_0730-43e219195b.jpg"
         breadcrumb="Ubytování"
       />
 

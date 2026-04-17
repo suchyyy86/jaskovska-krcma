@@ -13,7 +13,7 @@ export function Hero() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://jaskovskakrcma.cz/wp-content/uploads/2020/01/IGP8478.jpg"
+          src="/images/hero-bg.jpg"
           alt="Jaškovská Krčma — budova u Těrlické přehrady"
           className="w-full h-full object-cover"
           loading="eager"
@@ -37,9 +37,9 @@ export function Hero() {
         <button
           onClick={handleScrollClick}
           className="group inline-flex flex-col items-center gap-2 text-xs uppercase tracking-[0.2em] text-white/70 hover:text-white transition-colors cursor-pointer"
-          aria-label="Scroll dolů"
+          aria-label="Posunout dolů"
         >
-          <span>Scroll to explore</span>
+          <span>Prozkoumat</span>
           <span className="relative w-px h-10 bg-white/40 overflow-hidden">
             <span className="absolute left-0 w-full h-full bg-white animate-[scrollLine_2s_infinite]" />
           </span>

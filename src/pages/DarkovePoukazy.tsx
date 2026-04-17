@@ -12,7 +12,7 @@ export function DarkovePoukazy() {
       <SubpageHero
         title="Dárkové poukazy"
         subtitle="Darujte příjemné chvíle"
-        image="https://jaskovskakrcma.cz/wp-content/uploads/2020/01/72_.jpg"
+        image="/images/72_.jpg"
         breadcrumb="Dárkové poukazy"
       />
 

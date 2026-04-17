@@ -22,7 +22,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Míchaný pikantní tataráček z pravé svíčkové", price: "260 Kč", desc: "kapary, cornichons, česnek, topinky (100g)", descEn: "Mixed spicy Tartar from real beef tenderloin, capers, cornichons, garlic, toast" },
       { name: "Škvarková pomazánka", price: "110 Kč", desc: "kyselý okurek, cibule, čerstvý chléb (100g)", descEn: "Pork crackling spread, pickled cucumber, onion, bread" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/1-efea57a4b9.jpg",
+    image: "/images/jidlo1.jpg",
   },
   {
     id: "polevky",
@@ -32,7 +32,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Staročeská kulajda s lesními hříbky", price: "85 Kč", desc: "zastřené vejce (0,33l)", descEn: "Mushroom soup with poached eggs" },
       { name: "Česneková polévka", price: "85 Kč", desc: "šunka, sýr, krutony (0,33l)", descEn: "Garlic soup, ham, cheese, croutons" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/3-6fec4f83ec.jpg",
+    image: "/images/jidlo2.jpg",
   },
   {
     id: "hlavni",
@@ -49,7 +49,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Grilovaný losos na citronovém pepři", price: "360 Kč", desc: "(200g)", descEn: "Grilled salmon on lemon pepper" },
       { name: "Hovězí steak z pravé svíčkové", price: "530 Kč", desc: "původem Nový Zéland, pepřová nebo hříbková omáčka (200g)", descEn: "Beef steak from sirloin, New Zealand origin" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/2-c155b1d1b3.jpg",
+    image: "/images/jidlo3.jpg",
   },
   {
     id: "vegetarianska",
@@ -61,7 +61,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Caesar salát", price: "210 Kč", desc: "ančovičkový dresink, slanina, krutony, Grana Padano (200g)" },
       { name: "Zeleninový salátek Teriyaki", price: "260 Kč", desc: "filírovaná vepřová panenka Sous-Vide, bylinková bagetka (200g+100g)" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/4-ce6e6e1fa4.jpg",
+    image: "/images/jidlo4.jpg",
   },
   {
     id: "detska",
@@ -70,7 +70,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Kuřecí řízek (přírodní nebo smažený)", price: "150 Kč", desc: "bramborová kaše, kečup (100g)" },
       { name: "Dětská svíčková na smetaně", price: "165 Kč", desc: "karlovarský knedlík (90g)" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/5-26a96c1d05.jpg",
+    image: "/images/jidlo5.jpg",
   },
   {
     id: "dezerty",
@@ -80,7 +80,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Palačinky (2 ks)", price: "115 Kč", desc: "lesní ovoce, čokoláda, šlehačka" },
       { name: "Zmrzlina slaný karamel (2 kopečky)", price: "115 Kč", desc: "karamelizované vlašské ořechy, šlehačka" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/6-3ce11c336a.jpg",
+    image: "/images/jidlo6.jpg",
   },
   {
     id: "kpivu",
@@ -91,7 +91,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Bramborové chipsy", price: "120 Kč", desc: "solené nebo česnekové, ďábelská omáčka (200g)" },
       { name: "Pražené mandle", price: "90 Kč", desc: "(100g)" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/1-9b6131a345.jpg",
+    image: "/images/jidlo7.jpg",
   },
   {
     id: "prilohy",
@@ -105,19 +105,22 @@ export const menuCategories: MenuCategory[] = [
       { name: "Grilovaná zelenina", price: "120 Kč", desc: "(200g)" },
       { name: "Bylinková bageta", price: "45 Kč", desc: "(1 ks)" },
     ],
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/20-5a91eb7986.jpg",
+    image: "/images/jidlo8.jpg",
   },
 ]
 
 // ===== GALLERY IMAGES =====
 export const galleryImages = [
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/1-9b6131a345.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/3-bd3b2c1429.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/5-ad7f8e5cc3.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/7-2d94143a7d.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/14-14bb0b08bf.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/20-5a91eb7986.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/32-21d7907e71.jpg",
+  "/images/jidlo1.jpg",
+  "/images/jidlo2.jpg",
+  "/images/jidlo3.jpg",
+  "/images/jidlo4.jpg",
+  "/images/jidlo5.jpg",
+  "/images/jidlo6.jpg",
+  "/images/jidlo7.jpg",
+  "/images/jidlo8.jpg",
+  "/images/jidlo9.jpg",
+  "/images/jidlo10.jpg",
 ]
 
 // ===== ACCOMMODATION =====
@@ -133,9 +136,9 @@ export const accommodations: AccommodationItem[] = [
     title: "Hotel",
     desc: "Ubytování v hotelu s výhledem na Těrlickou přehradu. Celková kapacita 60 lůžek ve 12 dvoulůžkových pokojích, 4 jednolůžkové pokoje, bezbariérový pokoj a 2 apartmány. V ceně bohatá snídaně.",
     images: [
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1034/DSC_0730-43e219195b.jpg",
-      "https://jaskovskakrcma.cz/wp-content/uploads/2020/01/IGP8478.jpg",
-      "https://jaskovskakrcma.cz/wp-content/uploads/2020/01/59.jpg",
+      "/images/hotel9.jpg",
+      "/images/hotel8.jpg",
+      "/images/hotel2.jpg",
     ],
     features: ["60 lůžek", "Snídaně v ceně", "Wi-Fi", "Parking"],
   },
@@ -143,9 +146,9 @@ export const accommodations: AccommodationItem[] = [
     title: "Chata Tatranec",
     desc: "Útulný srub s vlastním sociálním zázemím, krbovou místností, ložnicí a kuchyňským koutem. Doporučujeme max 4 osoby. Dostupná červen–září.",
     images: [
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1992/chata_01-027cc39b1d.jpeg",
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1992/chata_02-2ade7e65a6.jpeg",
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1992/chata_03-9e5acf7fce.jpeg",
+      "/images/tatranec1.jpeg",
+      "/images/tatranec2.jpeg",
+      "/images/tatranec3.jpeg",
     ],
     features: ["Max 4 osoby", "Krb", "Kuchyňka"],
   },
@@ -153,9 +156,9 @@ export const accommodations: AccommodationItem[] = [
     title: "Trdlovy Apartmány",
     desc: "Tři nové, moderní apartmány s vlastním sociálním zázemím, ložnicí, kuchyňským koutem a výhledem na přehradu. Max 2 osoby.",
     images: [
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/2722/IMG_7550-e511543367.jpg",
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/2722/IMG_7551-da2e12b7a3.jpg",
-      "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/2722/IMG_7552-f8c19e2c5b.jpg",
+      "/images/apartmany3.jpg",
+      "/images/apartmany2.jpg",
+      "/images/apartmany4.jpg",
     ],
     features: ["Max 2 osoby", "Výhled na přehradu", "Moderní"],
   },
@@ -376,21 +379,21 @@ export const events: EventItem[] = [
   {
     title: "Svatby",
     desc: "Obřady pod širým nebem, až 200 hostů, kompletní svatební servis včetně menu, výzdoby a ubytování.",
-    image: "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/973/Monika_a_Tom_059-3ef25ff955.jpg",
+    image: "/images/svatba1.jpg",
     link: "Svatební nabídka",
     route: "/svatba",
   },
   {
     title: "Firemní akce",
     desc: "6 salónků a teras, catering od 180 Kč/os., AV technika, teambuilding. Hraběcí sněm pojme až 74 hostů.",
-    image: "https://jaskovskakrcma.cz/wp-content/uploads/2020/01/70.jpg",
+    image: "/images/hotel5.jpg",
     link: "Více informací",
     route: "/pronajem",
   },
   {
     title: "Dárkové poukazy",
     desc: "Poukazy od 500 Kč na gastronomický zážitek nebo pobyt. Objednávka v restauraci nebo e-mailem.",
-    image: "https://jaskovskakrcma.cz/wp-content/uploads/2020/01/72_.jpg",
+    image: "/images/jidlo9.jpg",
     link: "Objednat poukaz",
     route: "/darkove-poukazy",
   },
@@ -502,13 +505,13 @@ export const navItems: NavItem[] = [
 
 // ===== FOOD GALLERY (for About section) =====
 export const foodGalleryImages = [
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/1-efea57a4b9.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/2-c155b1d1b3.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/3-6fec4f83ec.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/1023/4-ce6e6e1fa4.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/1-9b6131a345.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/3-bd3b2c1429.jpg",
-  "https://jaskovskakrcma.cz/wp-content/plugins/widgetkit/cache/gallery/508/20-5a91eb7986.jpg",
+  "/images/jidlo1.jpg",
+  "/images/jidlo2.jpg",
+  "/images/jidlo3.jpg",
+  "/images/jidlo4.jpg",
+  "/images/jidlo5.jpg",
+  "/images/jidlo6.jpg",
+  "/images/jidlo7.jpg",
 ]
 
 // ===== WEDDING (from /svatba/) =====

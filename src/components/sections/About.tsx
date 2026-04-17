@@ -1,10 +1,8 @@
 import { useInView } from "@/hooks/useInView"
-import { foodGalleryImages } from "@/data/content"
 import { cn } from "@/lib/utils"
 
 export function About() {
   const [ref, isVisible] = useInView<HTMLDivElement>()
-  const [galleryRef, galleryVisible] = useInView<HTMLDivElement>()
 
   return (
     <section className="py-16 md:py-24 lg:py-32" id="o-nas">
@@ -38,45 +36,13 @@ export function About() {
           </div>
           <div>
             <img
-              src="https://jaskovskakrcma.cz/wp-content/uploads/2020/01/59.jpg"
+              src="/images/about1.jpg"
               alt="Interiér Jaškovské Krčmy zdobený freskami"
               className="rounded-lg w-full aspect-[4/3] object-cover"
               loading="lazy"
               width={600}
               height={450}
             />
-          </div>
-        </div>
-
-        {/* Food Gallery — "Naše kuchyně" */}
-        <div
-          ref={galleryRef}
-          className={cn(
-            "mt-20 transition-all duration-700",
-            galleryVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          )}
-        >
-          <h3 className="font-display text-[clamp(1.5rem,3vw,2.5rem)] font-normal mb-8 text-ink text-center relative after:content-[''] after:block after:w-[40px] after:h-[2px] after:bg-gold after:mt-3 after:mx-auto">
-            <span className="font-decorative italic text-[0.5em] block mb-1">Ochutnejte</span>
-            Naše kuchyně
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {foodGalleryImages.map((src, i) => (
-              <div
-                key={i}
-                className={cn(
-                  "overflow-hidden rounded-lg",
-                  i === 0 && "md:col-span-2 md:row-span-2",
-                )}
-              >
-                <img
-                  src={src}
-                  alt={`Jídlo z naší kuchyně ${i + 1}`}
-                  className="w-full h-full object-cover aspect-square hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-            ))}
           </div>
         </div>
       </div>

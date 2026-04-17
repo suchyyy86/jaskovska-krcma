@@ -23,10 +23,24 @@ export function History() {
           Sedm století tradice
         </h2>
 
+        <div 
+          className={cn(
+            "max-w-[900px] mx-auto mb-16 rounded-2xl overflow-hidden shadow-sm transition-all duration-1000 delay-200 ring-1 ring-border/50",
+            titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          )}
+        >
+          <img 
+            src="/images/historie1.jpg" 
+            alt="Historická podoba Jaškovské Krčmy" 
+            className="w-full h-auto max-h-[500px] object-cover hover:scale-105 transition-transform duration-1000 hue-rotate-15 sepia-[.2]" 
+            loading="lazy"
+          />
+        </div>
+
         <div
           ref={timelineRef}
           className={cn(
-            "relative max-w-[800px] mx-auto transition-all duration-700",
+            "relative max-w-[800px] mx-auto transition-all duration-700 delay-300",
             timelineVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           )}
         >
