@@ -628,54 +628,39 @@ export const weddingData = {
 
 export type SpaceItem = {
   title: string
-  subtitle: string
   image: string
-  panoId: string
-  heading: number
-  pitch?: number
+  embedUrl: string
 }
 
 export const spaces: SpaceItem[] = [
   {
-    title: "RESTAURACE",
-    subtitle: "ÚŽASNÁ KUCHYNĚ",
+    title: "Restaurace",
     image: "/images/jidlo2.jpg",
-    panoId: "AF1QipO3prPkYK7t0HEE8efcoTmRdma5JSg0RLler_yt",
-    heading: 42.66
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442449331!6m8!1m7!1sYxMo0jAMy80AAAQYN3U-vw!2m2!1d49.753382!2d18.492954!3f40.113420949529655!4f-7.885035157561546!5f0.7820865974627469"
   },
   {
-    title: "OHNIVÁ TERASA",
-    subtitle: "ROMANTICKÁ VEČEŘE",
+    title: "Ohnivá terasa",
     image: "/images/svatba1.jpg",
-    panoId: "CIHM0ogKEICAgID4rozhOA",
-    heading: 118.68
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442535197!6m8!1m7!1srsQf6ZniyC4AAAQYN3WiKQ!2m2!1d49.753426!2d18.493092!3f118.67514169073051!4f-5.859836081815672!5f0.7820865974627469"
   },
   {
-    title: "HRABĚCÍ SNĚM",
-    subtitle: "NEJROZSÁHLEJŠÍ SÁL",
+    title: "Hraběcí sněm",
     image: "/images/svatba4.jpg",
-    panoId: "AF1QipPx1v6DO_H-yOkNxULv3hpEJ7yZU8tN5NjvgAvv",
-    heading: 273.34
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436429341164!6m8!1m7!1sg3bu8P2YlxQAAAQYN3U-wQ!2m2!1d49.753298!2d18.492785!3f273.3360112375875!4f-15.962501113720705!5f0.7820865974627469"
   },
   {
-    title: "RYTÍŘI KRÁLE",
-    subtitle: "STŘEDOVĚKÁ ATMOSFÉRA",
+    title: "Rytíři krále",
     image: "/images/svatba6.jpg",
-    panoId: "AF1QipNZQpVUm78_R2dJfaHrYeY8ic-Jk__W050J33Ej",
-    heading: 121.88
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442631019!6m8!1m7!1sTXUhRD_aCF0AAAQYN3Wiog!2m2!1d49.753298!2d18.492966!3f121.88155070793529!4f-23.431924380883046!5f0.7820865974627469"
   },
   {
-    title: "VESELÁ CHASA",
-    subtitle: "HRADNÍ TAVERNA",
+    title: "Veselá chasa",
     image: "/images/svatba8.jpg",
-    panoId: "AF1QipNwXKnQXHpoRZDr25urXKTnUi_MEuIWFGZe5yhm",
-    heading: 271.36
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442680413!6m8!1m7!1sAF1QipMkutJ7WUodP8r3ePXVD-kWWUpkT-novCOOcdtu!2m2!1d49.7534255!2d18.493092!3f118.67514169073051!4f-5.859836081815672!5f0.7820865974627469"
   },
   {
-    title: "MÖNNICHOVA ROZHLEDNA",
-    subtitle: "KRÁSNÁ",
+    title: "Mönnichova rozhledna",
     image: "/images/svatba12.jpg",
-    panoId: "CIHM0ogKEICAgID4rvLEVA",
-    heading: 113.38
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442055237!6m8!1m7!1sZfAorBrA454AAAQYN3oXVw!2m2!1d49.753243!2d18.492947!3f113.38290154432637!4f-12.63223347360423!5f0.7820865974627469"
   }
 ]

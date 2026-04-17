@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { X, ExternalLink, View } from "lucide-react"
+import { X, View } from "lucide-react"
 import { spaces, type SpaceItem } from "@/data/content"
 import { useInView } from "@/hooks/useInView"
 import { cn } from "@/lib/utils"
@@ -79,43 +79,29 @@ export function Spaces() {
         </div>
       </section>
 
-      {/* Street View Modal */}
+      {/* Street View Fullscreen Modal */}
       {activeSpace && (
-        <div className="fixed inset-0 z-[200] bg-black/95 flex flex-col pointer-events-auto">
-          <div className="flex items-center justify-between p-4 md:p-6 bg-gradient-to-b from-black/80 to-transparent text-white absolute top-0 w-full z-[201] pointer-events-none">
-            <div>
-              <h3 className="font-display text-2xl md:text-3xl drop-shadow-lg">{activeSpace.title}</h3>
-            </div>
-          </div>
+        <div className="fixed inset-0 z-[200] bg-black flex flex-col">
+          {/* Close button */}
           <button
             onClick={() => setActiveSpace(null)}
-            className="absolute top-4 md:top-6 right-4 md:right-6 z-[202] w-12 h-12 bg-white/10 hover:bg-white text-white hover:text-ink backdrop-blur-sm rounded-full flex items-center justify-center transition-all shadow-xl"
+            className="absolute top-4 right-4 z-[202] w-12 h-12 bg-black/60 hover:bg-white text-white hover:text-ink backdrop-blur-sm rounded-full flex items-center justify-center transition-all shadow-xl"
             aria-label="Zavřít"
           >
             <X className="w-6 h-6" />
           </button>
           
-          <div className="w-full flex-1 flex items-center justify-center p-4 md:p-12 pb-8">
-            <div className="w-full h-full bg-neutral-900 rounded-xl overflow-hidden relative shadow-2xl flex items-center justify-center border border-white/10">
-              
-              <div className="absolute inset-0 flex items-center justify-center flex-col text-center p-8 bg-neutral-900 z-0">
-                  <View className="w-16 h-16 text-white/20 mb-6" />
-                  <h4 className="font-display text-2xl text-white mb-2">360° Virtuální prohlídka prostoru</h4>
-                  <p className="text-white/60 max-w-md mx-auto mb-8">
-                    Vykreslování uživatelských panoram přímo dovnitř stránky je společností Google dočasně blokováno.
-                  </p>
-                  <a 
-                    href={`https://www.google.com/maps/@?api=1&map_action=pano&pano=${activeSpace.panoId}&heading=${activeSpace.heading}`}
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 bg-gold text-white px-8 py-3 rounded hover:bg-gold-hover transition-colors font-medium uppercase tracking-widest"
-                  >
-                    Otevřít zobrazení <ExternalLink className="w-4 h-4" />
-                  </a>
-              </div>
-
-            </div>
-          </div>
+          {/* Fullscreen iframe */}
+          <iframe
+            src={activeSpace.embedUrl}
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title={`Virtuální prohlídka - ${activeSpace.title}`}
+          />
         </div>
       )}
     </>
