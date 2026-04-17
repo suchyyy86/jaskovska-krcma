@@ -3,6 +3,7 @@ import { About } from "@/components/sections/About"
 import { MenuSection } from "@/components/sections/MenuSection"
 import { Gallery } from "@/components/sections/Gallery"
 import { Accommodation } from "@/components/sections/Accommodation"
+import { Spaces } from "@/components/sections/Spaces"
 import { Events } from "@/components/sections/Events"
 import { Services } from "@/components/sections/Services"
 import { History } from "@/components/sections/History"
@@ -17,6 +18,7 @@ export function HomePage() {
       <MenuSection />
       <Gallery />
       <Accommodation />
+      <Spaces />
       <Events />
       <Services />
       <History />
