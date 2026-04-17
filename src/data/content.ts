@@ -626,3 +626,56 @@ export const weddingData = {
   storno: "Při zrušení 4 měsíce před konáním akce je záloha nevratná.",
 }
 
+export type SpaceItem = {
+  title: string
+  subtitle: string
+  image: string
+  panoId: string
+  heading: number
+  pitch?: number
+}
+
+export const spaces: SpaceItem[] = [
+  {
+    title: "RESTAURACE",
+    subtitle: "ÚŽASNÁ KUCHYNĚ",
+    image: "/images/jidlo2.jpg",
+    panoId: "AF1QipO3prPkYK7t0HEE8efcoTmRdma5JSg0RLler_yt",
+    heading: 42.66
+  },
+  {
+    title: "OHNIVÁ TERASA",
+    subtitle: "ROMANTICKÁ VEČEŘE",
+    image: "/images/svatba1.jpg",
+    panoId: "CIHM0ogKEICAgID4rozhOA",
+    heading: 118.68
+  },
+  {
+    title: "HRABĚCÍ SNĚM",
+    subtitle: "NEJROZSÁHLEJŠÍ SÁL",
+    image: "/images/svatba4.jpg",
+    panoId: "AF1QipPx1v6DO_H-yOkNxULv3hpEJ7yZU8tN5NjvgAvv",
+    heading: 273.34
+  },
+  {
+    title: "RYTÍŘI KRÁLE",
+    subtitle: "STŘEDOVĚKÁ ATMOSFÉRA",
+    image: "/images/svatba6.jpg",
+    panoId: "AF1QipNZQpVUm78_R2dJfaHrYeY8ic-Jk__W050J33Ej",
+    heading: 121.88
+  },
+  {
+    title: "VESELÁ CHASA",
+    subtitle: "HRADNÍ TAVERNA",
+    image: "/images/svatba8.jpg",
+    panoId: "AF1QipNwXKnQXHpoRZDr25urXKTnUi_MEuIWFGZe5yhm",
+    heading: 271.36
+  },
+  {
+    title: "MÖNNICHOVA ROZHLEDNA",
+    subtitle: "KRÁSNÁ",
+    image: "/images/svatba12.jpg",
+    panoId: "CIHM0ogKEICAgID4rvLEVA",
+    heading: 113.38
+  }
+]
