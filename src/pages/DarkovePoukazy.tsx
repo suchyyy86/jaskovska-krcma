@@ -12,7 +12,7 @@ export function DarkovePoukazy() {
       <SubpageHero
         title="Dárkové poukazy"
         subtitle="Darujte příjemné chvíle"
-        image="/images/72_.jpg"
+        image="/images/jidlo9.jpg"
         breadcrumb="Dárkové poukazy"
       />
 

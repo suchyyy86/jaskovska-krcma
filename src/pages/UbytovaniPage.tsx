@@ -3,6 +3,7 @@ import { SubpageHero } from "@/components/SubpageHero"
 import { accommodations, hotelDetails, hotelExtras, stayPackages } from "@/data/content"
 import { useInView } from "@/hooks/useInView"
 import { cn } from "@/lib/utils"
+import { ImageCarousel } from "@/components/ui/image-carousel"
 
 export function UbytovaniPage() {
   const [infoRef, infoVisible] = useInView<HTMLDivElement>()
@@ -14,7 +15,7 @@ export function UbytovaniPage() {
       <SubpageHero
         title="Ubytování"
         subtitle="Hotel, Chata & Apartmány"
-        image="/images/DSC_0730-43e219195b.jpg"
+        image="/images/hotel3.jpg"
         breadcrumb="Ubytování"
       />
 
@@ -28,12 +29,7 @@ export function UbytovaniPage() {
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="h-[250px] overflow-hidden">
-                  <img
-                    src={item.images[0]}
-                    alt={item.title}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    loading="lazy"
-                  />
+                  <ImageCarousel images={item.images} title={item.title} />
                 </div>
                 <div className="p-10">
                   <h3 className="font-display text-[clamp(1.25rem,3vw,1.75rem)] mb-4">{item.title}</h3>

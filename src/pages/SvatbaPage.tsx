@@ -15,7 +15,7 @@ export function SvatbaPage() {
       <SubpageHero
         title="Svatba"
         subtitle="Váš den, Vaše oslava"
-        image="/images/Monika_a_Tom_059-3ef25ff955.jpg"
+        image="/images/svatba1.jpg"
         breadcrumb="Svatba"
       />
 

@@ -13,7 +13,7 @@ export function PronajemPage() {
       <SubpageHero
         title="Firemní akce a pronájem"
         subtitle="Školení, konference, večírky"
-        image="/images/70.jpg"
+        image="/images/hotel5.jpg"
         breadcrumb="Pronájem"
       />
 
