@@ -1,6 +1,5 @@
-import { useState, useEffect, useCallback } from "react"
 import { Link } from "react-router-dom"
-import { Phone, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"
+import { Phone, ArrowRight } from "lucide-react"
 import { useInView } from "@/hooks/useInView"
 import { accommodations } from "@/data/content"
 import { cn } from "@/lib/utils"
