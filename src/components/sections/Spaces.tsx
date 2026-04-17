@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react"
 import { ChevronLeft, ChevronRight, X } from "lucide-react"
-import { spaces, SpaceItem } from "@/data/content"
+import { spaces, type SpaceItem } from "@/data/content"
 import { useInView } from "@/hooks/useInView"
 import { cn } from "@/lib/utils"
 
