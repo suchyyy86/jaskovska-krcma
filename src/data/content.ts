@@ -635,32 +635,32 @@ export type SpaceItem = {
 export const spaces: SpaceItem[] = [
   {
     title: "Restaurace",
-    image: "/images/jidlo2.jpg",
+    image: "/images/restaurace.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442449331!6m8!1m7!1sYxMo0jAMy80AAAQYN3U-vw!2m2!1d49.753382!2d18.492954!3f40.113420949529655!4f-7.885035157561546!5f0.7820865974627469"
   },
   {
     title: "Ohnivá terasa",
-    image: "/images/svatba1.jpg",
+    image: "/images/ohniva_terasa.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442535197!6m8!1m7!1srsQf6ZniyC4AAAQYN3WiKQ!2m2!1d49.753426!2d18.493092!3f118.67514169073051!4f-5.859836081815672!5f0.7820865974627469"
   },
   {
     title: "Hraběcí sněm",
-    image: "/images/svatba4.jpg",
+    image: "/images/hrabeci_snem.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436429341164!6m8!1m7!1sg3bu8P2YlxQAAAQYN3U-wQ!2m2!1d49.753298!2d18.492785!3f273.3360112375875!4f-15.962501113720705!5f0.7820865974627469"
   },
   {
     title: "Rytíři krále",
-    image: "/images/svatba6.jpg",
+    image: "/images/rytiri_krale.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442631019!6m8!1m7!1sTXUhRD_aCF0AAAQYN3Wiog!2m2!1d49.753298!2d18.492966!3f121.88155070793529!4f-23.431924380883046!5f0.7820865974627469"
   },
   {
     title: "Veselá chasa",
-    image: "/images/svatba8.jpg",
+    image: "/images/vesela_chasa.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442680413!6m8!1m7!1sAF1QipMkutJ7WUodP8r3ePXVD-kWWUpkT-novCOOcdtu!2m2!1d49.7534255!2d18.493092!3f118.67514169073051!4f-5.859836081815672!5f0.7820865974627469"
   },
   {
     title: "Mönnichova rozhledna",
-    image: "/images/svatba12.jpg",
+    image: "/images/monnichova_rozhledna.jpg",
     embedUrl: "https://www.google.com/maps/embed?pb=!1m0!3m2!1scs!2scz!4v1436442055237!6m8!1m7!1sZfAorBrA454AAAQYN3oXVw!2m2!1d49.753243!2d18.492947!3f113.38290154432637!4f-12.63223347360423!5f0.7820865974627469"
   }
 ]
